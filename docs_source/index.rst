@@ -1,6 +1,6 @@
 
 Project Name
-===========
+============
 
 Description of your project here.
 
@@ -11,7 +11,7 @@ Features
 * Feature 2
 
 Installation
------------
+------------
 
 .. code-block:: bash
 
@@ -24,4 +24,3 @@ Usage
 
     import your_package
     your_package.do_something()
-        

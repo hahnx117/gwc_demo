@@ -36,17 +36,17 @@ def generate_readme():
     # Create minimal conf.py in source_dir
     with open(os.path.join(source_dir, 'conf.py'), 'w', encoding='UTF-8') as f:
         f.write("""
-project = 'Your Project'
-extensions = ['sphinx_markdown_builder']
-source_suffix = '.rst'
-master_doc = 'index'
-        """)
+PROJECT = 'Your Project'
+EXTENSIONS = ['sphinx_markdown_builder']
+SOURCE_SUFFIX = '.rst'
+MASTER_DOC = 'index'
+""")
 
     # Create index.rst with your desired README content
     with open(os.path.join(source_dir, 'index.rst'), 'w', encoding='UTF-8') as f:
         f.write("""
 Project Name
-===========
+============
 
 Description of your project here.
 
@@ -57,7 +57,7 @@ Features
 * Feature 2
 
 Installation
------------
+------------
 
 .. code-block:: bash
 
@@ -70,7 +70,7 @@ Usage
 
     import your_package
     your_package.do_something()
-        """)
+""")
 
     # Build markdown output
     build_args = ['-b', 'markdown', source_dir, build_dir]

@@ -1,6 +1,5 @@
 
-project = 'Your Project'
-extensions = ['sphinx_markdown_builder']
-source_suffix = '.rst'
-master_doc = 'index'
-        
+PROJECT = 'Your Project'
+EXTENSIONS = ['sphinx_markdown_builder']
+SOURCE_SUFFIX = '.rst'
+MASTER_DOC = 'index'
