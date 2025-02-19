@@ -1,0 +1,27 @@
+
+Project Name
+===========
+
+Description of your project here.
+
+Features
+--------
+
+* Feature 1
+* Feature 2
+
+Installation
+-----------
+
+.. code-block:: bash
+
+    pip install your-package
+
+Usage
+-----
+
+.. code-block:: python
+
+    import your_package
+    your_package.do_something()
+        
