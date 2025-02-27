@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-Configuration manager script for GitHub practice.
-Instructions:
-1. Run the script to see how it manages a simple config file
-2. Modify to add new configuration options
-3. Commit changes
-4. Create a branch for a new feature
-5. Practice merging and resolving conflicts
-"""
-
 import json
 import os
 
@@ -51,9 +40,6 @@ def update_setting(config, setting, value):
     else:
         print(f"Error: Setting '{setting}' not found in configuration.")
     return config
-
-# TODO: Students can add more functions here
-# For example: add_setting, remove_setting, reset_to_defaults, etc.
 
 
 if __name__ == "__main__":
